@@ -4,7 +4,7 @@ export const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full lg:h-[1000px] h-[800px] bg-[#1b202d] text-[#edefef] flex justify-center items-center p-4 "
+      className="w-full lg:h-[1000px] bg-[#1b202d] text-[#edefef] flex justify-center items-center p-4 "
     >
       <form
         action="https://getform.io/f/0a436d71-5a8c-475e-8196-c7bbbed434a6"
