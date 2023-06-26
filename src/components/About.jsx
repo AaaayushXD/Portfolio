@@ -1,5 +1,5 @@
-import React from 'react'
-import "../index.css"
+import React from "react";
+import "../index.css";
 
 export const About = () => {
   return (
@@ -37,4 +37,4 @@ export const About = () => {
       </div>
     </div>
   );
-}
+};
