@@ -22,7 +22,7 @@ export const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#171923] text-[#edefef]">
       <div>
-        <img src={logo} alt="Logo Image" style={{ width: "60px" }} />
+        <img src={logo} alt="Logo" style={{ width: "60px" }} />
       </div>
 
       {/* Menu bar */}
@@ -38,12 +38,12 @@ export const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="skill" smooth={true} offset={50} duration={500}>
+          <Link to="skill" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to="work" smooth={true} offset={50} duration={500}>
+          <Link to="work" smooth={true} offset={-150} duration={500}>
             Works
           </Link>
         </li>
@@ -135,6 +135,7 @@ export const Navbar = () => {
             <a
               href="https://www.linkedin.com/in/aayush-lamichhane-040938280/"
               target="_blank"
+              rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Linkedin <FaLinkedin size={30} />
@@ -145,6 +146,7 @@ export const Navbar = () => {
             <a
               href="https://www.instagram.com/aa_aayushh/"
               target="_blank"
+              rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Instagram <FaInstagram size={30} />
@@ -155,6 +157,7 @@ export const Navbar = () => {
             <a
               href="https://github.com/AaaayushXD"
               target="_blank"
+              rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Github <FaGithub size={30} />
@@ -164,6 +167,7 @@ export const Navbar = () => {
             <a
               href="mailto:lamichhane.aayush.al@gmail.com"
               target="_blank"
+              rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Email <HiOutlineMail size={30} />
@@ -173,6 +177,7 @@ export const Navbar = () => {
             <a
               href="/"
               target="_blank"
+              rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Resume <BsFillPersonLinesFill size={30} />

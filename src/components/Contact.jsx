@@ -4,12 +4,12 @@ export const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#1b202d] text-[#edefef] flex justify-center items-center p-4 "
+      className="w-full lg:h-[1000px] h-[800px] bg-[#1b202d] text-[#edefef] flex justify-center items-center p-4 "
     >
       <form
         action="https://getform.io/f/0a436d71-5a8c-475e-8196-c7bbbed434a6"
         method="POST"
-        className="flex flex-col max-w-[600px] w-full text-[#333] h-full"
+        className="flex flex-col max-w-[600px] w-full text-[#333] h-screen"
       >
         <div className="pb-8 ">
           <p className="text-4xl text-[#edefef] font-bold my-3 inline border-b-4 border-[#39b2ad] ">
