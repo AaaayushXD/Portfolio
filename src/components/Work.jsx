@@ -3,7 +3,6 @@ import "../index.css";
 import FORKITFY from "../assets/forktify.png";
 import BANKIST from "../assets/bankist.png";
 import MAPTY from "../assets/mapty.png";
-import SIMONSAYS from "../assets/simon-says.png";
 import TODOLIST from "../assets/todolist.png";
 import NETFLIX from "../assets/netflix.png";
 import LAMACHAT from "../assets/LamaChat.png";
@@ -24,7 +23,7 @@ export const Work = () => {
         </div>
 
         {/* Card Container*/}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
           {/* Grid Item */}
           {/* First ITem */}
           <Project
