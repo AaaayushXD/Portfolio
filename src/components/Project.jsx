@@ -17,7 +17,7 @@ function Project(props) {
               Demo
             </button>
           </a>
-          <a href={props.githubLink} >
+          <a href={props.link} >
             <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#39b2ad] text-[#edefef] font-bold text-lg">
               Code
             </button>

@@ -6,6 +6,7 @@ import MAPTY from "../assets/mapty.png";
 import SIMONSAYS from "../assets/simon-says.png";
 import TODOLIST from "../assets/todolist.png";
 import NETFLIX from "../assets/netflix.png";
+import LAMACHAT from "../assets/LamaChat.png";
 import Project from "./Project";
 
 export const Work = () => {
@@ -27,44 +28,45 @@ export const Work = () => {
           {/* Grid Item */}
           {/* First ITem */}
           <Project
-            name="Forktify Application"
-            image={FORKITFY}
-            githubLink="https://github.com/AaaayushXD/forkify"
-            demoLink="https://forktify-aayushl.netlify.app/"
+            name="Messaging App"
+            image={LAMACHAT}
+            link="https://github.com/AaaayushXD/simon-says"
+            demoLink="https://aayush-simon-says.netlify.app/"
           />
+
           {/* Second Item */}
           <Project
             name="Bankist Application"
             image={BANKIST}
-            githubLink="https://github.com/AaaayushXD/Bankist"
+            link="https://github.com/AaaayushXD/Bankist"
             demoLink="https://bankist-aayush.netlify.app/"
           />
           {/* THIRD ITEM */}
           <Project
             name="Mapty Application"
             image={MAPTY}
-            githubLink="https://github.com/AaaayushXD/mapty"
+            link="https://github.com/AaaayushXD/mapty"
             demoLink="https://mapty-aayush.netlify.app/"
           />
           {/* fOURTH ITEM */}
           <Project
-            name="Simon Says"
-            image={SIMONSAYS}
-            githubLink="https://github.com/AaaayushXD/simon-says"
-            demoLink="https://aayush-simon-says.netlify.app/"
+            name="Forktify Application"
+            image={FORKITFY}
+            link="https://github.com/AaaayushXD/forkify"
+            demoLink="https://forktify-aayushl.netlify.app/"
           />
           {/* fIFTH ITEM */}
           <Project
             name="Netflix Clone"
             image={NETFLIX}
-            githubLink="https://github.com/AaaayushXD/Netflix-clone"
+            link="https://github.com/AaaayushXD/Netflix-clone"
             demoLink="https://netflixclone-aayush.netlify.app/"
           />
           {/* SIXTH ITEM */}
           <Project
             name="To do list"
             image={TODOLIST}
-            githubLink="https://github.com/AaaayushXD/ToDoList"
+            link="https://github.com/AaaayushXD/ToDoList"
             demoLink="https://todolist-aayush.onrender.com/"
           />
         </div>
