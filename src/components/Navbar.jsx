@@ -9,7 +9,7 @@ import {
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
-import aayush from "../assets/aayush.png"
+import aayush from "../assets/aayush.png";
 import Logo from "../assets/aayushlogo.png";
 import "../index.css";
 const logo = Logo;
@@ -57,7 +57,7 @@ export const Navbar = () => {
       {/* Hamburger */}
       <div
         onClick={handleClick}
-        className="md:hidden z-10"
+        className="z-10 md:hidden"
         style={{ width: "30px", cursor: "pointer" }}
       >
         {!nav ? <FaBars /> : <FaTimes />}
@@ -136,7 +136,7 @@ export const Navbar = () => {
               href="https://www.linkedin.com/in/aayush-lamichhane-040938280/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex items-center justify-between w-full text-gray-300"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -147,7 +147,7 @@ export const Navbar = () => {
               href="https://www.instagram.com/aa_aayushh/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex items-center justify-between w-full text-gray-300"
             >
               Instagram <FaInstagram size={30} />
             </a>
@@ -158,7 +158,7 @@ export const Navbar = () => {
               href="https://github.com/AaaayushXD"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex items-center justify-between w-full text-gray-300"
             >
               Github <FaGithub size={30} />
             </a>
@@ -168,18 +168,18 @@ export const Navbar = () => {
               href="mailto:lamichhane.aayush.al@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex items-center justify-between w-full text-gray-300"
             >
               Email <HiOutlineMail size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500">
             <a
-              href={aayush}
+              href="../assets/cv_aayush.pdf"
               download="Aayush"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex items-center justify-between w-full text-gray-300"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

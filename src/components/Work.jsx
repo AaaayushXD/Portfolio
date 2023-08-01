@@ -29,8 +29,8 @@ export const Work = () => {
           <Project
             name="Messaging App"
             image={LAMACHAT}
-            link="https://github.com/AaaayushXD/simon-says"
-            demoLink="https://aayush-simon-says.netlify.app/"
+            link="https://github.com/AaaayushXD/LamaChat"
+            demoLink="https://lamachatapp.netlify.app/"
           />
 
           {/* Second Item */}
