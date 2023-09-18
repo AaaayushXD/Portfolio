@@ -1,7 +1,6 @@
 import React from "react";
 import "../index.css";
 import FORKITFY from "../assets/forktify.png";
-import BANKIST from "../assets/bankist.png";
 import MAPTY from "../assets/mapty.png";
 import TODOLIST from "../assets/todolist.png";
 import NETFLIX from "../assets/netflix.png";
