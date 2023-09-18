@@ -7,6 +7,7 @@ import TODOLIST from "../assets/todolist.png";
 import NETFLIX from "../assets/netflix.png";
 import LAMACHAT from "../assets/LamaChat.png";
 import Project from "./Project";
+import FOODDELIGHT from "../assets/foodDelight.png"
 
 export const Work = () => {
   return (
@@ -35,10 +36,10 @@ export const Work = () => {
 
           {/* Second Item */}
           <Project
-            name="Bankist Application"
-            image={BANKIST}
-            link="https://github.com/AaaayushXD/Bankist"
-            demoLink="https://bankist-aayush.netlify.app/"
+            name="Food Delight"
+            image={FOODDELIGHT}
+            link="https://github.com/AaaayushXD/ifa_project"
+            demoLink="https://aayush-ifaproject.netlify.app"
           />
           {/* THIRD ITEM */}
           <Project
