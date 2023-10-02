@@ -9,7 +9,7 @@ import {
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
-import aayush from "../assets/cv_aayush.pdf"
+import aayush from "../assets/Aayush_Lamichhane.pdf"
 import Logo from "../assets/aayushlogo.png";
 import "../index.css";
 const logo = Logo;
