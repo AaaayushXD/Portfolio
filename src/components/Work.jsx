@@ -2,7 +2,6 @@ import React from "react";
 import "../index.css";
 import FORKITFY from "../assets/forktify.png";
 import MAPTY from "../assets/mapty.png";
-import TODOLIST from "../assets/todolist.png";
 import NETFLIX from "../assets/netflix.png";
 import LAMACHAT from "../assets/LamaChat.png";
 import Project from "./Project";
