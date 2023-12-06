@@ -8,7 +8,7 @@ import MONGO from "../assets/mongo.png";
 import GITHUB from "../assets/github.png";
 import TAILWIND from "../assets/tailwind.png";
 import REACTIMG from "../assets/react.png";
-import FIREBASE from "../assets/firebase.png"
+import FIREBASE from "../assets/firebase_logo.png"
 import REDUX from "../assets/redux.png"
 
 
