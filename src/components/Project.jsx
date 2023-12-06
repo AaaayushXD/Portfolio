@@ -4,7 +4,7 @@ function Project(props) {
   return (
     <div
       style={{ backgroundImage: `url(${props.image})` }}
-      className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+      className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div min-h-[80px] min-w-[80px]"
     >
       {/* HOVER EFFECT */}
       <div className="opacity-0 group-hover:opacity-100 ">
@@ -13,7 +13,7 @@ function Project(props) {
         </span>
         <div className="pt-8 text-center">
           <a href={props.demoLink}>
-            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+            <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
               Demo
             </button>
           </a>
