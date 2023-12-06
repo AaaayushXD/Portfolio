@@ -64,7 +64,7 @@ export const Skills = () => {
             <p className="my-4">Firebase</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={REDUX} alt="tailwind" className="w-20 mx-auto" />
+            <img src={REDUX} alt="tailwind" className="w-20 h-20 mx-auto" />
             <p className="my-4">Redux</p>
           </div>
         </div>

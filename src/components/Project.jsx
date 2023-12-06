@@ -4,7 +4,7 @@ function Project(props) {
   return (
     <div
       style={{ backgroundImage: `url(${props.image})` }}
-      className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div min-h-[80px] min-w-[80px]"
+      className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
     >
       {/* HOVER EFFECT */}
       <div className="opacity-0 group-hover:opacity-100 ">
