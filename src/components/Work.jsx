@@ -30,7 +30,7 @@ export const Work = () => {
             name="F1"
             image={F1}
             link="https://github.com/AaaayushXD/f1"
-            demoLink="f1-dev-da093.web.app"
+            demoLink="https://f1-dev-da093.web.app"
           />
           {/* Second Item */}
           <Project
