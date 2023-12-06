@@ -6,7 +6,8 @@ import TODOLIST from "../assets/todolist.png";
 import NETFLIX from "../assets/netflix.png";
 import LAMACHAT from "../assets/LamaChat.png";
 import Project from "./Project";
-import FOODDELIGHT from "../assets/foodDelight.png"
+import FOODDELIGHT from "../assets/foodDelight.png";
+import F1 from "../assets/f1.png";
 
 export const Work = () => {
   return (
@@ -27,46 +28,45 @@ export const Work = () => {
           {/* Grid Item */}
           {/* First ITem */}
           <Project
+            name="F1"
+            image={F1}
+            link="https://github.com/AaaayushXD/f1"
+            demoLink="f1-dev-da093.web.app"
+          />
+          {/* Second Item */}
+          <Project
             name="Messaging App"
             image={LAMACHAT}
             link="https://github.com/AaaayushXD/LamaChat"
             demoLink="https://lamachatapp.netlify.app/"
           />
-
-          {/* Second Item */}
+          {/* THIRD ITEM */}
           <Project
             name="Food Delight"
             image={FOODDELIGHT}
             link="https://github.com/AaaayushXD/ifa_project"
             demoLink="https://aayush-ifaproject.netlify.app"
           />
-          {/* THIRD ITEM */}
+          {/* fOURTH ITEM */}
           <Project
             name="Mapty Application"
             image={MAPTY}
             link="https://github.com/AaaayushXD/mapty"
             demoLink="https://mapty-aayush.netlify.app/"
           />
-          {/* fOURTH ITEM */}
+          {/* fIFTH ITEM */}
           <Project
             name="Forktify Application"
             image={FORKITFY}
             link="https://github.com/AaaayushXD/forkify"
             demoLink="https://forktify-aayushl.netlify.app/"
           />
-          {/* fIFTH ITEM */}
+          {/* SIXTH ITEM */}
           <Project
             name="Netflix Clone"
             image={NETFLIX}
             link="https://github.com/AaaayushXD/Netflix-clone"
             demoLink="https://netflixclone-aayush.netlify.app/"
-          />
-          {/* SIXTH ITEM */}
-          <Project
-            name="To do list"
-            image={TODOLIST}
-            link="https://github.com/AaaayushXD/ToDoList"
-            demoLink="https://todolist-aayush.onrender.com/"
           />
         </div>
       </div>

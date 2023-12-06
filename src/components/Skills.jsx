@@ -8,6 +8,8 @@ import MONGO from "../assets/mongo.png";
 import GITHUB from "../assets/github.png";
 import TAILWIND from "../assets/tailwind.png";
 import REACTIMG from "../assets/react.png";
+import FIREBASE from "../assets/firebase.png"
+import REDUX from "../assets/redux.png"
 
 
 export const Skills = () => {
@@ -15,16 +17,16 @@ export const Skills = () => {
     <div name="skill" className=" w-full h-screen  bg-[#1b202d] text-[#edefef]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full">
-        <div className="flex flex-col justify-start items-start">
+        <div className="flex flex-col items-start justify-start">
           <p className="text-4xl font-bold inline border-b-4 border-[#39b2ad]">
             Skills
           </p>
           <p className="py-4 text-xl text-[#708097] ">
-            These are the technologies I've worked with: 
+            These are the technologies I've worked with:
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+        <div className="grid w-full grid-cols-2 gap-4 py-8 text-center sm:grid-cols-4">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img src={HTML} alt="HTML" className="w-20 mx-auto" />
             <p className="my-4">HTML</p>
@@ -56,6 +58,14 @@ export const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img src={TAILWIND} alt="tailwind" className="w-20 mx-auto" />
             <p className="my-4">TailWind CSS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img src={FIREBASE} alt="tailwind" className="w-20 mx-auto" />
+            <p className="my-4">Firebase</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img src={REDUX} alt="tailwind" className="w-20 mx-auto" />
+            <p className="my-4">Redux</p>
           </div>
         </div>
       </div>
